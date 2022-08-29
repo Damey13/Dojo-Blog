@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HomenewBlog</title>
+  </head>
+  <body>
+    <link rel="stylesheet" href="dojo.css" />
+    <div class="wrapper">
+      <div class="header">
+        <div class="rtaln" ondblclick="disapr()">The Dojo Blog</div>
+        <div class="ltaln">
+          <div class="home" id="home">
+            <a onclick="toggle('Home') ">Home</a>
+          </div>
+          <div class="nb" id="nb">
+            <a onclick="toggle('Blog')">New Blog</a>
+          </div>
+        </div>
+      </div>
+      <div id="wrapper">
+        <div class="main" id="main">
+          <h3>All Blogs!</h3>
+          <ul id="blogs-list">
+            <!-- <li>
+              <p class="listt">my new item</p>
+              <p>written by mario</p>
+            </li>
+            <li>
+              <p class="listt">my new item</p>
+              <p>written by dump</p>
+            </li>
+            <li>
+              <p class="listt">my new item</p>
+              <p>written by super</p>
+            </li> -->
+          </ul>
+        </div>
+
+        <div class="cmain" id="cmain">
+          <div class="heading">
+            <h2>Add a new blog</h2>
+          </div>
+          <form action="/action_page.php">
+            <label for="blogname">Blog title:</label><br />
+            <input type="text" id="fname" name="fname" />
+            <br /><br />
+            <label for="blogbody">Blog body:</label><br />
+            <textarea name="blog" rows="2" cols="40" id="fbody"></textarea>
+            <br /><br />
+            <label for="blogauthor">Blog Author:</label><br />
+            <select class="select" id="blogauthor" name="blogauthor">
+              <br />
+              <option value="mario" selected>Mario</option>
+              <option value="super">Super</option>
+              <option value="dump">Dump</option>
+            </select>
+            <br />
+            <br />
+            <div class="buttonalign">
+              <input
+                type="button"
+                onclick="addDetail()"
+                value="Add Blog"
+                class="pinkbutton"
+              />
+            </div>
+          </form>
+        </div>
+
+        <div class="newmain" id="newmain">
+          <div class="heading">
+            <h2>Add a new blog</h2>
+          </div>
+          <form action="/action_page.php">
+            <label for="blogname">Blog title:</label><br />
+            <input type="text" id="fname1" name="fname" />
+            <br /><br />
+            <label for="blogbody">Blog body:</label><br />
+            <textarea name="blog" rows="2" cols="40" id="fbody1"></textarea>
+            <br /><br />
+            <label for="blogauthor">Blog Author:</label><br />
+            <select class="select" id="blogauthor1" name="blogauthor">
+              <br />
+              <option value="mario" selected>Mario</option>
+              <option value="super">Super</option>
+              <option value="dump">Dump</option>
+            </select>
+            <br />
+            <br />
+            <div class="buttonalign">
+              <input
+                type="button"
+                id="editButton"
+                value="Edit Blog"
+                class="pinkbutton"
+              />
+              <div class="buttonalign">
+                <input
+                  type="button"
+                  id="deleteButton"
+                  value="Delete Blog"
+                  class="pinkbuttonn"
+                />
+            </div>
+          </form>
+        </div>
+        <div class="maind" id="dblog">
+          <h3>All Blogs!</h3>
+          <ul>
+            <li class="listt">my new item</li>
+            <li>written by mario</li>
+            <li class="listt">my second item</li>
+            <li>written by dump</li>
+            <li class="listt">web dev</li>
+            <li>written by super</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="dojo.js"></script>
+  </body>
+</html>

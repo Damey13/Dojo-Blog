@@ -1,0 +1,146 @@
+.wrapper {
+  width: 500px;
+  height: 50%;
+  font-family: "Courier New", Courier, monospace;
+  display: block;
+  justify-content: center;
+  margin-left: 500px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  /* margin-right: 50%; */
+}
+.rtaln {
+  color: #f1356d;
+  font-size: x-large;
+  font-weight: bolder;
+  align-items: center;
+}
+.ltaln {
+  display: flex;
+  font-size: medium;
+  align-items: center;
+}
+.home {
+  margin-right: 20px;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+.nb {
+  cursor: pointer;
+  font-weight: bolder;
+  color: #f1356d;
+  align-items: center;
+  text-align: center;
+}
+.main {
+  display: block;
+  padding-top: 30px;
+  text-decoration: none;
+  font-size: larger;
+}
+.listt {
+  color: #f1356d;
+  font-weight: bolder;
+}
+.cmain {
+  display: none;
+  padding-top: 30px;
+  justify-content: center;
+}
+.newmain {
+  display: none;
+  padding-top: 30px;
+  justify-content: center;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  font-size: large;
+  color: #f1356d;
+}
+.heading {
+  padding-left: 20px;
+}
+.dmain {
+  display: grid;
+  padding-top: 30px;
+}
+.space {
+  padding-top: 20px;
+}
+.maind {
+  display: none;
+  padding-top: 30px;
+  text-decoration: none;
+  font-size: larger;
+}
+.pinkbutton {
+  background-color: #f1356d;
+  border: none;
+  color: white;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  cursor: pointer;
+  padding: 10px;
+  /* display: inline-block; */
+  border-radius: 12px;
+  width: 20%;
+}
+.pinkbutton:active {
+  background-color: #f1289f;
+}
+.pinkbuttonn {
+  background-color: #f1356d;
+  border: none;
+  color: white;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  cursor: pointer;
+  padding: 10px;
+  /* display: inline-block; */
+  border-radius: 12px;
+  /* width: 20%; */
+}
+
+.pinkbuttonn:active {
+  background-color: #f1289f;
+}
+ul {
+  list-style: none;
+}
+.buttonalign {
+  display: flex;
+  justify-content: space-evenly;
+}
+select {
+  /* appearance: none; */
+  outline: 0;
+  /* background: green; */
+  /* background-image: none; */
+  width: 100%;
+  height: 50%;
+  color: black;
+  cursor: pointer;
+  /* border: 1px solid black; */
+  border-radius: 3px;
+}
+.select {
+  position: relative;
+  display: block;
+  /* width: 15em;
+  height: 2em; */
+  line-height: 1.5;
+  overflow: hidden;
+  border-radius: 0.25em;
+  padding-bottom: 10px;
+}
+input {
+  width: 98.5%;
+}
+textarea {
+  width: 99%;
+}
